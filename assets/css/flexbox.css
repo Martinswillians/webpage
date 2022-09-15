@@ -1,0 +1,196 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    gap: 5px;
+    margin-left: 2px;
+}
+
+.menu__list {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 2px;
+    gap: 15px;
+    margin-right: 2px;
+}
+
+.menu__list__item__contato {
+    display: none;
+}
+
+.title__container {
+    display: collumn;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0px;   
+}
+
+.title__bio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+}
+
+.title__subsection {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.title__network {
+    display: flex;
+    padding: 0%;
+    gap: 15px;
+    margin-top: 16px;
+    border-bottom: 2rem;
+}
+
+.about__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.about__paragraph {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px; 
+}
+.skills__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center
+}
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    height: 206px;
+    width: 1328px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.hobbies__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center    
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    height: 206px;
+    width: 1328px;
+    margin: 0 0 20% 0;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF    
+}
+
+.academic__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    padding: 16px;
+    align-self: center;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+.academic__courses {
+    display: flex;
+    align-items: flex-start;    
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 16px;
+    height: 125px;
+    
+    
+}
+
+.academic__courses__box {
+   
+   margin: 5px;
+   padding: 10px;
+   background: #FFFFFF;
+}

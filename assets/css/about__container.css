@@ -1,0 +1,7 @@
+.about__container {
+    display: grid;
+    grid-template-columns: auto
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: auto;
+    background: #EAF2FD;
+}

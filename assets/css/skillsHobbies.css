@@ -1,0 +1,29 @@
+.skillsHobbies {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    height: auto;
+    background: #F5F5F5;
+    
+}
+
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    /*background: yellow;*/
+    
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;  
+    /*background: rosybrown;*/
+}
+
